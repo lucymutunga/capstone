@@ -6,6 +6,7 @@ import Society from "./components/society";
 import Activities from "./components/activities";
 import Testimonials from "./components/testimonials";
 import Border from "./components/border";
+import Home from "./components/home";
 const App = () => {
   return (
     <div className="bg-[#edf2f4] flex flex-col justify-center items-center w-fit ">
@@ -16,6 +17,7 @@ const App = () => {
       <Society />
       <Activities />
       <Testimonials />
+      <Home />
     </div>
   );
 };

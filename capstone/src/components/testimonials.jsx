@@ -15,7 +15,7 @@ const Testimonials = () => {
       <div className=" bg-red-500 w-40 h-40">
         <p>"A true asset with a bredth of talents"</p>
       </div>
-    </div>
+    </div>  
   );
 };
 
