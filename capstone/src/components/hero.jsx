@@ -22,7 +22,7 @@ const hero = () => {
         href="https://portfolioalcy.netlify.app/"
         className="bg-[#adb5bd] rounded-lg font-bold  w-32 mt-6 py-2 md:ml-80 md:mt-0 md:p-4 lg:w-48 lg:h-16 lg:position-center lg:mb-36 lg:ml-auto lg:text-2xl"
       >
-        Portfolio
+        About me
       </a>
     </div>
   );

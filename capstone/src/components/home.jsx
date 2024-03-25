@@ -1,4 +1,5 @@
 import React from "react";
+
 const Home = () => {
   return (
     <>
@@ -27,12 +28,15 @@ const Home = () => {
               <li>
                 <a href="#contact">Contact</a>
               </li>
+              <li>
+                <a href="#contact"></a>
+              </li>
             </ul>
           </div>
         </nav>
         <nav id="hamburger-nav">
           <div class="logo">
-            <img src="../assets/images/logo.png" alt="Logo" />
+            <img src="" alt="Logo" />
           </div>
           <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
@@ -59,6 +63,11 @@ const Home = () => {
               <li>
                 <a href="#contact" onclick="toggleMenu()">
                   Contact
+                </a>
+              </li>
+              <li>
+                <a href="#contact" onclick="toggleMenu()">
+                  More
                 </a>
               </li>
             </div>

@@ -14,7 +14,7 @@ const Society = () => {
           </button>
         </div>
 
-        <button className="bg-[#820263] rounded-lg ml-28 mt-6 p-4 font-bold md:ml-72 md:p-6 lg:px-52">
+        <button className="bg-[#820263] rounded-lg ml-28 mt-6 p-4 font-bold md:ml-72 md:p-6 lg:px-52 lg:ml-[400px]">
           <a href="">African culture</a>
         </button>
       </div>
