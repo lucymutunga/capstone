@@ -75,7 +75,7 @@ const Home = () => {
         </nav>
         <section id="profile">
           <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="lucy's profile" />
+            <img src="./profile-pic.png" alt="lucy's profile" />
           </div>
           <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
@@ -84,7 +84,7 @@ const Home = () => {
             <div class="btn-container">
               <button
                 class="btn btn-color-2"
-                onclick="window.open('./assets/resume.pdf')"
+                onclick="window.open('./resume.pdf')"
               >
                 Download CV
               </button>
@@ -97,13 +97,13 @@ const Home = () => {
             </div>
             <div id="socials-container">
               <img
-                src="./assets/linkedin.jpg"
+                src="./linkedin.jpg"
                 alt="My LinkedIn profile"
                 class="icon"
                 onclick="location.href='https://linkedin.com/'"
               />
               <img
-                src="./assets/github.jpg"
+                src="./github.jpg"
                 alt="My Github profile"
                 class="icon"
                 onclick="location.href='https://github.com/'"
@@ -116,17 +116,17 @@ const Home = () => {
           <h1 class="title">About Me</h1>
           <div class="section-container">
             <div class="section__pic-container">
-              <img
-                src="./assets/about-pic.png"
+              {/* <img
+                src="./about-pic.png"
                 alt="Profile picture"
                 class="about-pic"
-              />
+              /> */}
             </div>
             <div class="about-details-container">
               <div class="about-containers">
                 <div class="details-container">
                   <img
-                    src="./assets/experience.png"
+                    src="./experience.png"
                     alt="Experience icon"
                     class="icon"
                   />
@@ -138,7 +138,7 @@ const Home = () => {
                 </div>
                 <div class="details-container">
                   <img
-                    src="./assets/education.png"
+                    src="./education.png"
                     alt="Education icon"
                     class="icon"
                   />
@@ -164,7 +164,7 @@ const Home = () => {
             </div>
           </div>
           <img
-            src="./assets/arrow.png"
+            src="./arrow.png"
             alt="Arrow icon"
             class="icon arrow"
             onclick="location.href='./#experience'"
@@ -180,7 +180,7 @@ const Home = () => {
                 <div class="article-container">
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -191,7 +191,7 @@ const Home = () => {
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -202,7 +202,7 @@ const Home = () => {
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -213,7 +213,7 @@ const Home = () => {
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -224,7 +224,7 @@ const Home = () => {
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -235,7 +235,7 @@ const Home = () => {
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -251,7 +251,7 @@ const Home = () => {
                 <div class="article-container">
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -262,7 +262,7 @@ const Home = () => {
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -273,7 +273,7 @@ const Home = () => {
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -284,7 +284,7 @@ const Home = () => {
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./checkmark.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -298,7 +298,7 @@ const Home = () => {
             </div>
           </div>
           <img
-            src="./assets/arrow.png"
+            src="./arrow.png"
             alt="Arrow icon"
             class="icon arrow"
             onclick="location.href='./#projects'"
@@ -312,7 +312,7 @@ const Home = () => {
               <div class="details-container color-container">
                 <div class="article-container">
                   <img
-                    src="./assets/project-1.jpg"
+                    src="./project-1.jpg"
                     alt="Project 1"
                     class="project-img"
                   />
@@ -336,7 +336,7 @@ const Home = () => {
               <div class="details-container color-container">
                 <div class="article-container">
                   <img
-                    src="./assets/project-2.jpg"
+                    src="./project-2.jpg"
                     alt="Project 2"
                     class="project-img"
                   />
@@ -360,7 +360,7 @@ const Home = () => {
               <div class="details-container color-container">
                 <div class="article-container">
                   <img
-                    src="./assets/project-3.jpg"
+                    src="./project-3.jpg"
                     alt="Project 3"
                     class="project-img"
                   />
@@ -386,7 +386,7 @@ const Home = () => {
             </div>
           </div>
           <img
-            src="./assets/arrow.png"
+            src="./arrow.png"
             alt="Arrow icon"
             class="icon arrow"
             onclick="location.href='./#contact'"
@@ -398,7 +398,7 @@ const Home = () => {
           <div class="contact-info-upper-container">
             <div class="contact-info-container">
               <img
-                src="./assets/email.png"
+                src="./email.png"
                 alt="Email icon"
                 class="icon contact-icon email-icon"
               />
@@ -408,7 +408,7 @@ const Home = () => {
             </div>
             <div class="contact-info-container">
               <img
-                src="./assets/linkedin.jpg"
+                src="./linkedin.jpg"
                 alt="LinkedIn icon"
                 class="icon contact-icon"
               />
